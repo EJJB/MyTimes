@@ -36,3 +36,47 @@ header nav {
 }
 
 /*Content*/
+.content{
+  display: flex;
+  border: 1px solid green;
+  z-index: 1;
+  padding-top: 120px;
+  width:
+  }
+
+.main.story{
+  border: 5px dashed aquamarine;
+}
+
+.stories{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted blue;
+}
+
+.news-bites{
+  border: 1px dashed orange;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+  margin-right: 40px;
+}
+
+.column.medium {
+  width: 300px;
+  margin-right: 40px;
+}
+
+.column.small {
+  width: 240px;
+  border: 2px dashed yellow;
+}
